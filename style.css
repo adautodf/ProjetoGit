@@ -1,0 +1,199 @@
+/*
+Unidades de Medida
+px => pixel
+vh => view height  /  a altura da tela dividido por 100
+vw => view width  /  a largura da tela dividida por 100
+cm => cm
+
+width => largura
+height: => altura
+font-size => troca o tamanho do texto
+color => troca a cor do texto
+font-family => troca a fonte do texto
+display => troca a forma que o elemento se comporta na tela ( Ex: fica sozinho na linha ou na mesma linha de outros elementos
+cursor => muda o cursor do mouse sobre o elemento
+position => serve para definir a posição do elemento sobre a tela
+border radius => arredonda as bordas
+float right => joga o elemento para a direita
+border => muda a cor e o tipo da borda
+href => local para onde quer que nos envie
+*/
+
+
+* {
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.caixa-superior {
+    background-image: url(./dev.png);     /* Troca de imagem de fundo*/
+    height: 90vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+
+.cabecalho {
+    padding-top: 25px;
+    padding-left:  35px;
+}
+
+.titulo-cabecalho {
+    font-size: 24px;
+    color: #FFFFFF;
+    display: inline;
+}
+
+.link-cabecalho {
+    font-size: 14px;
+    color: #FFFFFF;
+    display: inline;
+    margin-left: 20px;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+h1 {
+    font-size: 58px;
+    color: #FFFFFF;
+    position: relative;
+    top: 280px;
+    margin-left: 35px;
+    margin-top: 80px;
+    
+}
+
+form {
+    opacity: 0;
+    transition: opacity 1s linear;
+    background-color: #FFFFFF;
+    border-radius: 10px;
+    /*height: 470px;
+    width: 450px;*/
+    float: right;
+    padding: 20px;
+    margin-right: 50px;
+    position: relative;
+    bottom: 70px;
+    margin-top: 70px;
+}
+
+.mostrar-formulario{
+    opacity: 1;
+}
+
+input {
+    display: block;
+    background-color: #F9F9F9;
+    border: 1px solid #E6E6E6;
+    border-radius: 5px;
+    height: 50px;
+    width: 352px;
+    margin-bottom: 20px;
+    padding-left: 10px;
+}
+
+textarea {
+    display: block;
+    height: 80px;
+    width: 352px;
+    background-color: #F9F9F9;
+    border: 1px solid #E6E6E6;
+    border-radius: 5px;
+    margin-bottom: 20px;
+    padding: 10px;
+}
+
+.titulo-formulario {
+    font-size: 24px;
+    color: #252B42;
+    margin-bottom: 30px;
+    text-align: center;
+}
+
+label {
+    font-size: 14px;
+    color: #252B42;
+    font-weight: 600;
+    line-height: 24px;
+}
+
+.envia-amigao:hover {
+    transition: 0.5s;
+    transform: scale(1.08);
+}
+
+button {
+    width: 352px;
+    height: 40px;
+    cursor: pointer;
+    border: none;
+    background-color: #40BB15 ;
+    border-radius: 5px;
+    color: #FFFFFF;
+}
+
+.caixa-central {
+    display: flex;
+    justify-content: space-evenly;
+    margin-bottom: 50px;
+}
+
+#titulo-meio {
+    font-size: 40px;
+    color: #252B42;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    text-align: center;
+    text-decoration: center;
+}
+
+.card {
+    width: 300px;
+    border-radius: 10px;
+    background-color: #ececec;
+    border: 1px solid #EEF6FF;
+}
+
+.titulo-card {
+    background: #219653;
+    color: #FFFFFF;
+    text-align: center;
+    padding: 20px;
+    border-radius: 10px 10px 0 0;
+}
+
+.caixa-inferior {
+    background-color: #252B42;
+}
+
+#titulo-inferior {
+    color: #FFFFFF;
+    font-size: 40px;
+    text-align: center;
+    padding-top: 50px;
+}
+
+.paragrafo-inferior1, .paragrafo-inferior2, .paragrafo-inferior3, .paragrafo-inferior4 {
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 25px;
+    letter-spacing: 1px;
+    color: #FFFFFF;
+    padding: 20px 30px;
+    width: 1500px;
+    left: 136px;
+    top: 137px;
+}
+
+ul {
+    padding: 20px;
+}
+
+li {
+    margin-bottom: 5px;
+    margin-left: 10px;
+}
+
